@@ -14,7 +14,7 @@ export default function Home() {
   const classes = useStyle();
   return (
     <div className={styles.container}>
-      <h1 className={classes.test}>Test</h1>
+      <h1 className={classes.test}>The style will be not useful until after HMR</h1>
     </div>
   )
 }
